@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Final x location:</strong>
+  <%= @flight_plan.final_x_location %>
+</p>
+
+<p>
+  <strong>Final y location:</strong>
+  <%= @flight_plan.final_y_location %>
+</p>
+
+<%= link_to 'Edit', edit_flight_plan_path(@flight_plan) %> |
+<%= link_to 'Back', flight_plans_path %>

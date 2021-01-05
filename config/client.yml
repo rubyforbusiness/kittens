@@ -1,0 +1,10 @@
+production:
+  base_url: http://which-technical-exercise.herokuapp.com/api
+
+development:
+  base_url: http://which-technical-exercise.herokuapp.com/api
+  #base_url: http://localhost:3000/test_api
+
+test:
+  base_url: http://which-technical-exercise.herokuapp.com/api
+  #base_url: http://localhost:3000/test_api
